@@ -1,0 +1,5 @@
+ ## instalaciones
+
+ ````
+npm install
+````
