@@ -9,6 +9,18 @@ process.env.PORT = process.env.PORT || 3000;
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
 /**
+ * VENCIMIENTO TOKEN
+ */
+process.env.CADUCIDAD_TOKE = 60 * 60 * 24 * 30;
+
+/**
+ * SEED
+ */
+
+process.env.SEED = process.env.SEED || 'this-id-the-seed-dev'
+
+
+/**
  * DB MONGO
  */
 let urlDB;
